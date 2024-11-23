@@ -1,0 +1,177 @@
+
+.image-container
+{
+  background-image: url('./Components/Images/Property-Insurance.jpg');
+  background-size: cover; 
+  background-position: center;
+  opacity: 0.9;
+  
+}
+.bottom-img
+{
+  background-image: url('./Components/Images/Insurance-PNG-Images.png');
+  /* background-size: cover; 
+  background-position: center; */
+  opacity: 0.9;
+}
+.mbs
+{
+  margin-bottom:260px;
+}
+.bb
+{
+  box-shadow: 0 0 10px blue;
+  
+}
+.size
+{
+  width: 25px;
+  height: 25px;
+}
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-2
+{
+  background-color: #bae6fd;
+}
+.securitylen
+{
+  margin-left: 300px;
+}
+.mbs-2
+{
+  margin-bottom: 500px;
+}
+.primum-box
+{
+  width: 200px;
+}
+.popup-container {
+  position: fixed;
+  top: 10;
+  left: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+}
+
+.button-group {
+  margin-top: 15px;
+  text-align: right;
+}
+/* Container styling */
+.form-container {
+  max-width: 400px; /* Reduced max-width */
+  margin: 0 auto;
+  padding: 15px; /* Reduced padding */
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Personal and Property details section styling */
+.user-details {
+  float: left;
+  margin-right: 20px;
+}
+
+.user-details h2 {
+  margin-bottom: 10px;
+  text-decoration-color: brown;
+}
+
+.personal-details {
+  border: 1px solid #16d9a2;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+  width: 45%;
+}
+
+.personal-details h2 {
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.pan-card-details {
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  width: 70%;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.pan-card-details h3 {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.contact-details,
+.property-details {
+  margin-bottom: 20px;
+;
+}
+
+.contact-details h3,
+.property-details h3 {
+  color: green;
+  margin-bottom: 10px;
+  width:70%
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-field input,
+.form-field select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
